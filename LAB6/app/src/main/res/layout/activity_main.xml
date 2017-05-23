@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.androidtown.lab6.MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="349dp"
+        android:layout_height="170dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter some lines of data here..."
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/write"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. WRITE SD FILE"
+        tools:layout_editor_absoluteY="186dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. CLEAR SCREEN"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. READ SD FILE"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. FINISH APP"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+</LinearLayout>
